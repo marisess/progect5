@@ -57,7 +57,6 @@ form {
     justify-content: space-between;
     padding-top: 90px;
     padding-right: 45px;
-    padding-bottom: 160px;
 }
 .form-inputs {
     display: flex;
@@ -102,4 +101,50 @@ input{
 nav{
     display: flex;
     justify-content: space-between;
+}
+input[type]:hover{
+    cursor: pointer;
+}
+.main_div{
+    display: flex;
+}
+.div_text{
+    width: 455px;
+}
+.main_box{
+    padding-top: 177px;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    margin-bottom: 40px; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 39px;
+}
+.div_img{
+    filter: drop-shadow(0px 0px 12.5836px rgba(0, 0, 0, 0.2));
+    position: relative;
+}
+.div_img1{
+    position: absolute;
+    right: 2px;
+    bottom: -90px;
+}
+.div_img2{
+    position: absolute;
+    top: 158px;
+    right: -65px;
+}
+.div_img3{
+    position: absolute;
+    top: -37px;
+    left: -8px;
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
 }
